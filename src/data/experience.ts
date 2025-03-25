@@ -6,28 +6,28 @@ const PAST_ROLES: {
   endDate: string
 }[] = [
   {
-    company: 'ACME Solutions',
-    role: 'CEO',
+    company: 'MavTek',
+    role: 'Développeur web',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vel hic aspernatur molestiae exercitationem rerum reiciendis mollitia magnam harum ipsum?',
-    startDate: 'March 2023',
-    endDate: 'Now',
+    startDate: 'Août 2021',
+    endDate: 'Septembre 2024',
   },
   {
-    company: 'Google',
-    role: 'Software Engineer',
+    company: 'AmigoExpress',
+    role: 'Développeur web',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vel hic aspernatur molestiae exercitationem rerum reiciendis mollitia magnam harum ipsum?',
-    startDate: 'April 2021',
-    endDate: 'March 2023',
+    startDate: 'Janvier 2020',
+    endDate: 'Avril 2021',
   },
   {
-    company: 'Vercel',
-    role: 'Developer Advocate',
+    company: 'Nukern',
+    role: 'Développeur web',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vel hic aspernatur molestiae exercitationem rerum reiciendis mollitia magnam harum ipsum?',
-    startDate: 'April 2021',
-    endDate: 'June 2018',
+    startDate: 'Septembre 2015',
+    endDate: 'Octobre 2016',
   },
 ]
 

@@ -4,7 +4,7 @@ import { AspectRatio } from '@/components/ui/aspect-ratio'
 export default function Work() {
   return (
     <div>
-      <h1 className="mb-8 text-2xl font-heading sm:text-4xl">Work</h1>
+      <h1 className="mb-8 text-2xl font-heading sm:text-4xl">Portfolio</h1>
 
       <div className="flex flex-col gap-5">
         {PROJECTS.map((project, id) => {

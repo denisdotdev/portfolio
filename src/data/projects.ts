@@ -6,32 +6,11 @@ const PROJECTS: {
   liveLink: string
 }[] = [
   {
-    name: 'Project 1',
-    description: 'Lorem ipsum dolor sit amet',
-    liveLink: 'https://google.com',
+    name: 'Spreent',
+    description: 'Réseau social pour les sportifs. Développé avec Ruby on Rails et Tailwindcss',
+    liveLink: 'https://www.spreent.ca/',
     previewImage: '/project1.png',
-    repoUrl: 'https://github.com',
-  },
-  {
-    name: 'Project 2',
-    description: 'Lorem ipsum dolor sit amet',
-    liveLink: 'https://google.com',
-    previewImage: '/project2.png',
-    repoUrl: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description: 'Lorem ipsum dolor sit amet',
-    liveLink: 'https://google.com',
-    previewImage: '/project3.png',
-    repoUrl: 'https://github.com',
-  },
-  {
-    name: 'Project 4',
-    description: 'Lorem ipsum dolor sit amet',
-    liveLink: 'https://google.com',
-    previewImage: '/project4.png',
-    repoUrl: 'https://github.com',
+    repoUrl: '',
   },
 ]
 
