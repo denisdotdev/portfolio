@@ -6,21 +6,7 @@ export default function Home() {
       <h1 className="text-2xl font-heading sm:text-4xl">Denis Lessard</h1>
       <p className="mt-2 text-lg sm:text-xl">Développeur web</p>
       <div className="mt-8 text-base sm:text-lg">
-        <p>Hi, my name is John Doe, software engineer based in NYC.</p>
-
-        <br />
-
-        <p>
-          This is the neobrutalism portfolio template. Check the{' '}
-          <a
-            target="_blank"
-            className="font-heading underline"
-            href="https://github.com/neobrutalism-templates/portfolio"
-          >
-            github repo
-          </a>{' '}
-          for more info.
-        </p>
+        <p>Bienvenue! Sur ce site, vous trouverez plus d'informmation sur moi et le travail que j'ai accompli.</p>
       </div>
 
       <Links />

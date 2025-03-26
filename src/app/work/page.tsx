@@ -10,11 +10,11 @@ export default function Work() {
         {PROJECTS.map((project, id) => {
           return (
             <div
-              className="border-border dark:border-darkBorder shadow-light dark:shadow-dark rounded-base border-2 bg-main p-4 sm:p-5"
+              className="border-border !relative dark:border-darkBorder shadow-light dark:shadow-dark rounded-base border-2 bg-main p-4 sm:p-5 [&>div]:!pb-0"
               key={id}
             >
               <AspectRatio
-                className="border-border dark:border-darkBorder shadow-light dark:shadow-dark !-bottom-[2px] rounded-base border-2"
+                className="border-border !relative dark:border-darkBorder shadow-light dark:shadow-dark !-bottom-[2px] rounded-base border-2"
                 ratio={71 / 26}
               >
                 <img
@@ -33,19 +33,22 @@ export default function Work() {
 
                 <div className="mt-8 grid grid-cols-2 gap-5">
                   <a
-                    className="border-border dark:border-darkBorder dark:bg-secondaryBlack dark:text-darkText shadow-light dark:shadow-dark cursor-pointer rounded-base border-2 bg-white px-4 py-2 text-center text-sm font-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none sm:text-base dark:hover:shadow-none"
+                    className={`border-border dark:border-darkBorder dark:bg-secondaryBlack dark:text-darkText shadow-light dark:shadow-dark cursor-pointer rounded-base border-2 bg-white px-4 py-2 text-center text-sm font-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none sm:text-base dark:hover:shadow-none` + (project.repoUrl && project.repoUrl !== '' ? ' col-span-1' : ' col-span-2')}
                     href={project.liveLink}
                     target="_blank"
                   >
-                    Visit
+                    Visiter
                   </a>
-                  <a
-                    className="border-border dark:border-darkBorder dark:bg-secondaryBlack dark:text-darkText shadow-light dark:shadow-dark cursor-pointer rounded-base border-2 bg-white px-4 py-2 text-center text-sm font-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none sm:text-base dark:hover:shadow-none"
-                    href={project.repoUrl}
-                    target="_blank"
-                  >
-                    Github
-                  </a>
+                  {project.repoUrl && project.repoUrl !== '' && (
+                      <a
+                      className="border-border dark:border-darkBorder dark:bg-secondaryBlack dark:text-darkText shadow-light dark:shadow-dark cursor-pointer rounded-base border-2 bg-white px-4 py-2 text-center text-sm font-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none sm:text-base dark:hover:shadow-none"
+                      href={project.repoUrl}
+                      target="_blank"
+                    >
+                      Github
+                    </a>
+                  )}
+
                 </div>
               </div>
             </div>

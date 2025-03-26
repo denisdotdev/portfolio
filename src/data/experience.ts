@@ -9,7 +9,7 @@ const PAST_ROLES: {
     company: 'MavTek',
     role: 'Développeur web',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vel hic aspernatur molestiae exercitationem rerum reiciendis mollitia magnam harum ipsum?',
+      'Développement frontend de la plateforme de commerce électronique pour créateurs de contenu. Je faisais parti de l\'équipe Social qui construisait les fonctionnalités de réseaux sociaux. Technologies utilisées: Vuejs, NextJS et PHP (Laravel)',
     startDate: 'Août 2021',
     endDate: 'Septembre 2024',
   },
@@ -17,7 +17,7 @@ const PAST_ROLES: {
     company: 'AmigoExpress',
     role: 'Développeur web',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vel hic aspernatur molestiae exercitationem rerum reiciendis mollitia magnam harum ipsum?',
+      'Développement full stack de la fonctionalité de recherche de trajets de covoiturage. En étroite collaboration avec le CEO, j\'ai développé la version 2 de la page de recherche. Technologies utilisées: Vuejs et Laravel',
     startDate: 'Janvier 2020',
     endDate: 'Avril 2021',
   },
@@ -25,7 +25,7 @@ const PAST_ROLES: {
     company: 'Nukern',
     role: 'Développeur web',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vel hic aspernatur molestiae exercitationem rerum reiciendis mollitia magnam harum ipsum?',
+      'Développement de la plateforme de gestion de facturation spécialisée pour les hébergeurs web et désigneurs. J\'ai travaillé autant sur l\'interface que l\'API de la première version de la plateforme lancée en 2015. Technologies utilisées: AngularJS, Laravel et Docker',
     startDate: 'Septembre 2015',
     endDate: 'Octobre 2016',
   },
