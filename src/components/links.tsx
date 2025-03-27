@@ -10,7 +10,7 @@ export default function Links() {
   const links: { icon: IconType; href: string, name: string }[] = [
     {
       icon: SiGmail,
-      href: 'mailto:denislessard91@gmail.com',
+      href: 'mailto:denis@fractionnaire.ca',
       name: 'Gmail'
     },
     {

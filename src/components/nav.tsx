@@ -14,11 +14,11 @@ export default function Nav() {
       text: 'Accueil',
     },
     {
-      path: '/about',
+      path: '/a-propos',
       text: 'À propos',
     },
     {
-      path: '/work',
+      path: '/portfolio',
       text: 'Portfolio',
     },
   ]
