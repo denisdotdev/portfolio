@@ -11,7 +11,14 @@ const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Denis Lessard',
-  description: 'Développeur web à Montréal'
+  description: 'Développeur web à Montréal',
+  openGraph: {
+    title: 'Denis Lessard',
+    description: 'Développeur web à Montréal',
+    type: 'website',
+    locale: 'fr_CA',
+    siteName: 'Fractionnaire'
+  }
 }
 
 export default function RootLayout({
