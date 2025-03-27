@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <ViewTransitions>
-      <html lang="en">
+      <html lang="fr">
         <body className={montserrat.className}>
           <ThemeProvider attribute="class" disableTransitionOnChange>
             <Nav />
