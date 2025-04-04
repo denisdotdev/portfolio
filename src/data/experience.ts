@@ -6,6 +6,13 @@ const PAST_ROLES: {
   endDate: string
 }[] = [
   {
+    company: 'Jippi',
+    role: 'Chef Technologique',
+    description: 'Responsable technologique de développement d\'une application mobile en Flutter.',
+    startDate: 'Avril 2025',
+    endDate: 'Présent',
+  },
+  {
     company: 'MavTek',
     role: 'Développeur web',
     description:

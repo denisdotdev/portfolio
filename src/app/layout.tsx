@@ -18,6 +18,16 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'fr_CA',
     siteName: 'Fractionnaire'
+  },
+  robots: 'follow, index',
+  twitter: {
+    card: 'summary',
+    title: 'Denis Lessard',
+    description: 'Développeur web à Montréal',
+    creator: '@DenLessard',
+  },
+  verification: {
+    google: '',
   }
 }
 
